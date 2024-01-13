@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="https://kit.fontawesome.com/13f903807c.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-circle-progress/dist/circle-progress.min.js" type="module"></script>
+
+    <title>Dashbord - RapidQuest</title>
+</head>
+
+
+<body>
+    <div class="dashbord_container">
+
+        <!-- Side Nav Starts Here -->
+        <div class="sideNav_container">
+            <!-- Side Nav Menu Starts Here -->
+            <div class="sideNav_menu_container">
+
+                <div class="sideNav">
+                    <div class="sideNav_top">
+                        <div>
+                            <i class="fa-solid fa-dove logo"></i>
+                        </div>
+                        <div>
+                            <abbr title="Search">
+                                <i class="fa-solid fa-magnifying-glass icon"></i>
+                            </abbr>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div>
+                            <abbr title="Home">
+                                <i class="fa-solid fa-house icon"></i>
+                            </abbr>
+                        </div>
+                        <div>
+                            <abbr title="All Transition">
+                                <i class="fa-regular fa-newspaper icon"></i>
+                            </abbr>
+                        </div>
+                        <div>
+                            <abbr title="Transition List">
+                                <i class="fa-solid fa-table-list icon"></i>
+                            </abbr>
+                        </div>
+                        <div>
+                            <abbr title="Profile">
+                                <i class="fa-solid fa-user icon"></i>
+                            </abbr>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <abbr title="Notifications">
+                            <i class="fa-solid fa-bell icon"></i>
+                        </abbr>
+                    </div>
+                    <div>
+                        <abbr title="Sign Out">
+                            <i class="fa-solid fa-right-from-bracket icon"></i>
+                        </abbr>
+                    </div>
+                </div>
+            </div>
+            <!-- Side Nav Menu Ends Here -->
+
+            <!-- Responsive Mesu Starts Here -->
+            <div class="responsive_menu_notificaton">
+                <abbr title="Notifications">
+                    <i class="fa-solid fa-bell icon"></i>
+                </abbr>
+            </div>
+            <div class="responsive_Menu_Container">
+                <div>
+                    <abbr title="Home">
+                        <i class="fa-solid fa-house icon"></i>
+                    </abbr>
+                </div>
+                <div>
+                    <abbr title="All Transition">
+                        <i class="fa-regular fa-newspaper icon"></i>
+                    </abbr>
+                </div>
+                <div>
+                    <abbr title="Transition List">
+                        <i class="fa-solid fa-table-list icon"></i>
+                    </abbr>
+                </div>
+                <div>
+                    <abbr title="Profile">
+                        <i class="fa-solid fa-user icon"></i>
+                    </abbr>
+                </div>
+                <div>
+                    <abbr title="Search">
+                        <i class="fa-solid fa-magnifying-glass icon"></i>
+                    </abbr>
+                </div>
+            </div>
+            <!-- Responsive Mesu Starts Here -->
+
+            <div class="sideNav_userDetails_container">
+
+                <div class="user_details">
+                    <img class="user_image" src="./Assets/safa.jpg" alt="">
+                    <div>
+                        <h2>Hi Safa Kabir,</h2>
+                        <p class="text-gray">Welcome Back</p>
+                    </div>
+                </div>
+
+                <div class="account_info_container">
+                    <div>
+                        <h4>Today</h4>
+                        <h1>$19,892</h1>
+                        <p class="text-gray">Account Balance</p>
+                    </div>
+
+                    <div class="balance-info">
+                        <div>
+                            <h4>$4,000</h4>
+                            <p class="text-gray">Year-to-Date</p>
+                        </div>
+
+                        <div>
+                            <h4>$1892</h4>
+                            <p class="text-gray">Total Interest</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <select class="select_element">
+                            <option value="">I Want to</option>
+                            <option value="a">A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Recent Transactions</h3>
+                    <div>
+                        <div class="transactions_list_item">
+                            <p>2023-08-07</p>
+                            <strong>Withdrawal Transfer to bank - XXXX11</strong>
+                            <hr>
+                        </div>
+
+                        <div class="transactions_list_item">
+                            <p>2023-08-07</p>
+                            <strong>Withdrawal Transfer to bank - XXXX11</strong>
+                            <hr>
+                        </div>
+
+                        <div class="transactions_list_item">
+                            <p>2023-08-07</p>
+                            <strong>Withdrawal Transfer to bank - XXXX11</strong>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Side Nav Ends Here -->
+
+        <div class="dashbord_content_container">
+            <div>
+                <h4 class="purple_text">Retirement Income</h4>
+                <h2>Starting Year 2056</h2>
+            </div>
+            <div>
+                <div class="account_buged">
+                    <div>
+                        <h1>$300,000</h1>
+                        <p class="text-gray">My Goal</p>
+                        <div class="purple_line"></div>
+                    </div>
+                    <div>
+                        <h1>59%</h1>
+                        <p class="text-gray">Goal Achived</p>
+                        <div class="purple_line"></div>
+                    </div>
+                    <div>
+                        <h1>$300</h1>
+                        <p class="text-gray">Est. Monthly Goal</p>
+                        <div class="purple_line"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <h3>Contribution Overview</h3>
+                <canvas width="350" height="200" id="myChart"></canvas>
+
+            </div>
+
+            <div class="progress_content_container">
+                <h2>How do i compare to my peers?</h1>
+                    <p class="text-gray">These Numbers represent current goal achievement</p>
+
+                    <div class="progress_container">
+                        <div>
+                            <div>
+                                <span>Age: </span>
+                                <select>
+                                    <option>Under 30</option>
+                                    <option>Under 40</option>
+                                    <option>Under 50</option>
+                                </select>
+                            </div>
+                            <div>
+                                <span>Salary: </span>
+                                <select>
+                                    <option>K 20- K 30</option>
+                                    <option>K 30 - K 40</option>
+                                    <option>K 40 - K 50</option>
+                                </select>
+                            </div>
+                            <div>
+                                <span>Gender: </span>
+                                <select>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Others</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="progress_circle_container">
+                            <div class="circel_container">
+                                <circle-progress class="progress" value="75" max="100"
+                                    text-format="percent"></circle-progress>
+                                <p>Average</p>
+                            </div>
+
+                            <div class="circel_container">
+                                <circle-progress class="progress" value="95" max="100"
+                                    text-format="percent"></circle-progress>
+                                <p>Top</p>
+                            </div>
+
+                            <div class="circel_container">
+                                <circle-progress class="progress" value="59" max="100"
+                                    text-format="percent"></circle-progress>
+                                <p>Me</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="left_menu_container">
+            <h4>Retirement Strategy</h4>
+            <div>
+                <div>
+                    <p>Employee Contribution</p><br>
+                    <input type="range">
+                </div>
+
+                <div>
+                    <p>Retirement Age</p><br>
+                    <input type="range">
+                </div>
+
+                <hr>
+
+                <div class="employee_contribution">
+                    <p>Employee Contribution</p>
+                    <p>8.4%</p>
+                </div>
+
+                <div class="employee_contribution">
+                    <p>Interest Rate</p>
+                    <p>5%</p>
+                </div>
+
+                <button class="btn">Update</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
